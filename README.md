@@ -14,6 +14,7 @@ Project is a url shortening service, like tinyurl, bitly... It relies on Vertx A
   - Required Path Params: `shorturl`
   - Output: `redirect to longurl`
 
+## Deploying and Running
 To run/deploy this example you will need to install [Serverless](https://serverless.com)
 After you are done here are the necceserry steps.
 ```sh
