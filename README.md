@@ -4,6 +4,16 @@ This is a simple **Vertx** project deployed as **AWS Lambda**. It demonstrates h
 
 Project is a url shortening service, like tinyurl, bitly... It relies on Vertx Async Api and AWS Lambda service.
 
+## API endpoints
+- URL: `POST /api`
+  - Params type: `json`
+  - Required Body Params: `longurl`
+  - Output: `shorturl`
+
+- URL: `GET /{shorturl}`
+  - Required Path Params: `shorturl`
+  - Output: `redirect to longurl`
+
 To run/deploy this example you will need to install [Serverless](https://serverless.com)
 After you are done here are the necceserry steps.
 ```sh
