@@ -15,9 +15,9 @@ Project is a url shortening service, like tinyurl, bitly... It relies on Vertx A
   - Output: `redirect to longurl`
 
 ## Deploying and Running
-To run/deploy this example you will need to install [Serverless](https://serverless.com)
-Open serverless.env.yml and change JDBC parameters.
-After you are done here are the necceserry steps.
+To run/deploy this example you will need to install [Serverless](https://serverless.com)  
+Open serverless.env.yml and change JDBC parameters.  
+After you are done here are the necceserry commands.
 ```sh
 $ mvn clean package
 $ serverless deploy -v
